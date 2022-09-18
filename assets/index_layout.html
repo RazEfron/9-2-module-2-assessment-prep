@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Pokedex App</h1>
+      <div id="pokemon-list">
+        <!-- Javascript created li elements -->
+        <p class="pokemon-name"></p>
+        <!--  -->
+      </div>
+    </header>
+    <main>
+      <section id="curr-pokemon">
+        <!-- Javascript created li elements -->
+        <h3>Name</h3>
+        <p>Base Experience: base_experience</p>
+        <p>Height: height</p>
+        <p>Weight: weight</p>
+        <img src=".sprites.front_default" alt="pokemon name" />
+        <!--  -->
+      </section>
+      <section id="pokemon-log">
+        <h2>Pokemon Log Form</h2>
+        <form>
+          <label for="pallet"></label>
+          <input type="radio" name="site" id="pallet" value="pallet town" checked/>
+          <label for="viridian"></label>
+          <input type="radio" name="site" id="viridian" value="viridian city" />
+          <input type="submit" value="Submit to Log" />
+        </form>
+      </section>
+      <section>
+        <h2>Pokemon Log</h2>
+        <ul id="sightings-list">
+          <!-- Javascript created li elements -->
+          <li>
+            PokemonName: Was spotted at
+            <button>Delete Post Log</button>
+          </li>
+          <!--  -->
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>

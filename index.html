@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="main.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Pokedex App</h1>
+      <div id="pokemon-list"></div>
+    </header>
+    <main>
+      <section id="curr-pokemon"></section>
+      <section>
+        <h2>Pokemon Log Form</h2>
+        <form>
+          <label for="pallet">Pallet</label>
+          <input
+            type="radio"
+            name="site"
+            id="pallet"
+            value="Pallet Town"
+          />
+          <label for="viridian">Viridian</label>
+          <input type="radio" name="site" id="viridian" value="viridian City" />
+          <input type="submit" value="Submit to Log" />
+        </form>
+      </section>
+      <section id="pokemon-sightings">
+        <h2>Pokemon Log</h2>
+        <!-- p -->
+        <ul id="sightings-list"></ul>
+        <button>Delete all Logs</button>
+      </section>
+    </main>
+  </body>
+</html>

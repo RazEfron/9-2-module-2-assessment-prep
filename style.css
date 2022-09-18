@@ -1,0 +1,16 @@
+body {
+  font-size: 14px;
+}
+
+#pokemon-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#pokemon-list p {
+  padding: 5px;
+}
+
+#curr-pokemon img {
+  width: 200px;
+}
